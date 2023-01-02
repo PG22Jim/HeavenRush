@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{57b0595e-b036-4b4d-82cc-8cc3cab6ac04}">
+		<property name="name">
+			<value>ChaserWingFlaps</value>
+		</property>
+		<property name="maxInstances">
+			<value>3</value>
+		</property>
+		<property name="instanceStealing">
+			<value>4</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{647adab7-5cd1-4e96-b12f-395e45b96a64}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{ea13765b-4829-44ba-8a9a-0940a3381c67}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{afadfc3e-ac90-41a4-b2a5-596708811c20}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{647adab7-5cd1-4e96-b12f-395e45b96a64}">
+		<relationship name="effects">
+			<destination>{ffad65f2-75de-4dd8-b23a-2353929a0467}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{ea13765b-4829-44ba-8a9a-0940a3381c67}" />
+	<object class="MixerBusFader" id="{ffad65f2-75de-4dd8-b23a-2353929a0467}" />
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{7b98b501-f145-4787-9a36-d0d58cfe672e}">
+		<property name="assetPath">
+			<value>Mx_Temp/MainMenu/4EM-156_TK28_THERE'S_SOMEONE_IN_THE_HOUSE_Tristan_Clopet_BMI_4_MORE_ELEMENTS_MUSIC_BMI.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>125.413</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ac5f5264-6d3e-4c54-93a0-f535a51777e4}</destination>
+		</relationship>
+	</object>
+</objects>

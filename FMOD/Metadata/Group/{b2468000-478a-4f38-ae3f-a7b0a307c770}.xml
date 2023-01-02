@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{b2468000-478a-4f38-ae3f-a7b0a307c770}">
+		<property name="name">
+			<value>DX_Ememy</value>
+		</property>
+		<property name="maxInstances">
+			<value>4</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{44b6077f-378f-4705-b3e9-d2e9cb9b404e}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{f7ea47e2-0a1a-4cd4-850e-7bf02841697c}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{53e84c99-b5be-4925-bed1-dfe1ba3b33f7}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{44b6077f-378f-4705-b3e9-d2e9cb9b404e}">
+		<relationship name="effects">
+			<destination>{e5a04e5d-10fe-4233-9b9f-89836cbded85}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{f7ea47e2-0a1a-4cd4-850e-7bf02841697c}" />
+	<object class="MixerBusFader" id="{e5a04e5d-10fe-4233-9b9f-89836cbded85}" />
+</objects>
